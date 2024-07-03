@@ -1,0 +1,128 @@
+:root{
+   --clr-primary: rgb(0, 115, 255);
+   --clr-secondary: #3babab;
+   --clr-third: #FFFFFF;
+   --clr-fourth: #5D3FD3;	
+   --clr-fifth: #FAF9F6;
+   --txt-clrp: #000000;
+   --txt-clrs:  #808080;
+--ff-primary:'Urbanist', sans-serif;
+--ff-secondary: 'Raleway', sans-serif; 
+}
+
+h1 {
+    font-family:var(--ff-primary);
+    font-weight: 200;
+    font-size: 100pt;
+}
+
+body{
+    margin-top:10px;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+
+}
+.beginning{
+    align-self:center ;
+    text-align:center ;
+}
+
+#nameTitle{
+    margin: 5px;
+}
+
+#nameDescription{
+    font-size: var(--ff-primary);
+    font-size:20pt;
+    font-weight: 200;
+    color: var(--ff-primary);
+    margin-bottom: 50px;
+}
+
+.photoText{
+  display:flex;  
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+
+#self{
+    width:50%;
+    display: block;
+    float: left;
+
+}
+
+#selfText{
+    display: block;
+    width:50%;
+    float:right;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: var(--ff-secondary);
+    font-weight: 300;
+    padding: left 75px right 75px;
+}
+
+.myself{
+    display: flex;
+    background-color: var(antiquewhite);
+}
+.myselfBox img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.myselfBox h3{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 20pt;
+    color: var(--txt-clrp);
+} 
+
+.myselfBox P{
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    color: var(--txt-clrp)
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.quote h3{
+    font-family: var(--txt-clrs);
+    color: var(--ff-primary);
+    font-size: 50pt;
+    padding-bottom: 15pt;
+
+}
+
+.qoute h5{
+    font-family: var(--ff-primary);
+    color: var(a);
+    font-size: 25pt;
+}
+
+footer{
+    background-color: var(antiquewhite);
+    padding:20px;
+    text-align: center;
+}
+
+.footer-content {
+    color: var(--txt-clrp);
+}
+.footer-content a {
+    color: var(--txt-clrp 
+    );
+    text-decoration: none;
+}
+
+
